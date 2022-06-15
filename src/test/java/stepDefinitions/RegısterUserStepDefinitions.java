@@ -70,7 +70,7 @@ RegisterPage regisUser=new RegisterPage();
         select.selectByIndex(2);
         WebElement month=Driver.getDriver().findElement(By.xpath("//select[@id='months']"));
         Select select1=new Select(month);
-        select1.selectByVisibleText("April");
+        select1.selectByVisibleText("May");
         WebElement years=Driver.getDriver().findElement(By.xpath("//select[@id='years']"));
         Select select2=new Select(years);
         select2.selectByValue("2020");
