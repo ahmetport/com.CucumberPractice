@@ -18,6 +18,6 @@ public class AmazonStepDefinitions {
     public void kullanici_nutella_için_arama_yapar() {
         amazonPage.aramaKutusu.sendKeys("Nutella"+ Keys.ENTER);
     }
-   ;
+
 
     }
