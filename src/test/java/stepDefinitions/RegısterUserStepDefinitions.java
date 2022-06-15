@@ -78,8 +78,7 @@ RegisterPage regisUser=new RegisterPage();
     }
     @Then("kullanici Sign up for our newsletter! checkbox ini secer")
     public void kullanici_sign_up_for_our_newsletter_checkbox_ini_secer() {
-        regisUser.checkBox1.click();
-        regisUser.checkBox2.click();
+
 
     }
     @Then("kullanici Receive special offers from our partners! checkbox ini secer")
