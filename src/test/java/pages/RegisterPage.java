@@ -33,6 +33,67 @@ public class RegisterPage {
     public WebElement checkBox1;
     @FindBy(xpath = "//input[@id='optin']")
     public WebElement checkBox2;
+    @FindBy(xpath = "//input[@id='first_name']")
+    public WebElement firstName;
+    @FindBy(xpath = "//input[@id='last_name']")
+    public WebElement lastName;
+    @FindBy(xpath = "//input[@id='company']")
+    public WebElement compannny;
+    @FindBy(xpath = "//input[@id='address1']")
+    public WebElement address1;
+    @FindBy(xpath = "//input[@id='address2']")
+    public WebElement adress2;
+    @FindBy(xpath = "//input[@id='state']")
+    public WebElement state;
+    @FindBy(xpath = "//input[@id='city']")
+    public WebElement cityy;
+    @FindBy(xpath = "//input[@id='zipcode']")
+    public WebElement kod;
+    @FindBy(xpath = "//input[@id='mobile_number']")
+    public WebElement number;
+    @FindBy(xpath = "//button[text()='Create Account']")
+    public WebElement createButton;
+    @FindBy (xpath = "//*[text()='Account Created!']")
+    public WebElement AccountCreatedYazısı;
+    @FindBy(xpath ="//*[text()='Continue']")
+    public WebElement Continue;
+    @FindBy(xpath = "//*[text()='ahmet']")
+    public WebElement LoginUsername;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

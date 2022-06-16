@@ -20,4 +20,8 @@ public class AmazonStepDefinitions {
     }
 
 
+    @Then("sayfayi kapatir")
+    public void sayfayiKapatir() {
+        Driver.closeDriver();
     }
+}
